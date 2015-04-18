@@ -15,3 +15,5 @@ RUN chmod +x /usr/local/bin/wrapdocker
 EXPOSE 2375
 
 ENTRYPOINT [ "/usr/local/bin/wrapdocker" ]
+
+CMD ["/bin/bash" , "-l"]
